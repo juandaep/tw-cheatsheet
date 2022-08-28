@@ -1,0 +1,17 @@
+Install di VSCode:
+- Tailwind CSS IntelliSense
+- PostCSS Language Support
+
+Jika mau mudah pada saat run, tambah ini di package.json bagian "scripts":
+
+"dev": "npx tailwindcss -i ./src/css/input.css -o ./public/css/style.css --watch"
+
+cara run: npm run dev
+
+========================================
+
+Jika mau minify file css:
+
+$ npx tailwindcss -o ./public/css/final.css
+
+note: jangan lupa ganti stylesheet di index.html ke final.css
