@@ -12,6 +12,6 @@ cara run: npm run dev
 
 Jika mau minify file css:
 
-$ npx tailwindcss -o ./public/css/final.css
+$ npx tailwindcss -o ./public/css/final.css  --minify
 
 note: jangan lupa ganti stylesheet di index.html ke final.css
